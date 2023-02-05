@@ -7,10 +7,10 @@ import time
 
 def gettrends():
     # Authentification avec Twitter API
-    consumer_key ="xxNK14q2MELn6ffUs1rN6UlcQ"
-    consumer_secret ="dW4G9aUdpS9TmGG4KXeRVpcqJt8LPOv8e8t86qnhKJd9hr5FlD"
-    access_token ="1587916737533591558-MpWViaDE1uYdMFlMOTWkeCif4NR5sp"
-    access_token_secret ="w30bA7ilJ0Wk3XbMUTwfZcAOkRCOoVSaGX0cD0HxkS9ZP"
+    consumer_key ="put ur key  "
+    consumer_secret ="put ur secret key"
+    access_token ="ur token"
+    access_token_secret ="ur token sercret"
 
     #    auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     #    auth.set_access_token(access_token, access_token_secret)
