@@ -138,7 +138,7 @@ def newsapi():
 
 def twitter():
     #Put your Bearer Token in the parenthesis below
-    client = tweepy.Client(bearer_token='AAAAAAAAAAAAAAAAAAAAAA%2FqVQEAAAAAMTIAETuDA2dxBvBjYXWLlnemmK4%3D6dlngVslD4PzhoZR69pUvf9SUonEpobN0A5EnJoc3rY0SJwCHc')
+    client = tweepy.Client(bearer_token='put ur bearer_token')
     
     query = '#health -is:retweet lang:fr'
     tweets = client.search_recent_tweets(query=query, tweet_fields=['context_annotations', 'created_at'], max_results=100)
