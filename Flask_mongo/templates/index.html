@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %}Graph : News API and Scraping Data {% endblock %}</h1>
+    <img src="{{ url_for('serve_image', filename='plot_newsapi.png') }}" alt="plot news api" style="width: 50%; height: auto; display: block; margin: 20px auto;" />
+    <img src="{{ url_for('serve_image', filename='plot_scraping.png') }}" alt="plot scraping" style="width: 50%; height: auto; display: block; margin: 20px auto;" />
+{% endblock %}

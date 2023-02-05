@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{% block title %} {% endblock %} - Mini-projet</title>
+    <style>
+      /* Add styles for navigation */
+      nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        background-color: #e6e6e6;
+      }
+      h1 {
+        text-align: center;
+      }
+      
+      nav a {
+        color: #d64161;
+        font-size: 20px;
+        margin-left: 20px;
+        text-decoration: none;
+      }
+      /* Add styles for images */
+      img {
+        width: 50%;
+        height: auto;
+        margin: 20px auto;
+        display: block;
+      }
+      /* Add styles for paragraphs */
+      p {
+        text-align: center;
+        font-size: 18px;
+        padding: 20px;
+      }
+      /* Add styles for h2 */
+      h2 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Mini-projet</a>
+      <a href="{{ url_for('index') }}">Get Data </a>
+    </nav>
+    <h2>Welcome to my Mini-projet!</h2>
+    {% block content %}
+    {% endblock %}
+  </body>
+</html>

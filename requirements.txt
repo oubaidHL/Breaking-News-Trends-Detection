@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+requests
+bs4
+regex
+newsapi-python
+pymongo
+datetime
+python-dateutil
+tweepy
